@@ -1,7 +1,10 @@
 #include <iostream>
 
+std::string print_string(char* string){
+    return string ;
+}
 
 int main(){
-    std::cout << "hello word" << std::endl;
+    std::cout << print_string("Hello world")  << std::endl;
     return 0;
 }
